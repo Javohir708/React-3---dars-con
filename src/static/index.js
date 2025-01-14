@@ -1,3 +1,5 @@
+import ads from '../assets/course.svg'
+
 export const LINKS = ['About Us', 'Courses', 'Events', 'Blog', 'Contacts']
 
 export const CREATEX = [
@@ -7,4 +9,18 @@ export const CREATEX = [
     "Etiam duis lobortis in fames ultrices commodo nibh.",
     "Tincidunt sagittis neque sem ac eget.",
     "Ultricies amet justo et eget quisque purus vulputate dapibus tortor."
+]
+
+export const USERS = [
+    {
+        id: 1,
+        url: {ads},
+        profession: {
+            title: "Marketing",
+            bg: "dodgerblue"
+        },
+        title: "The Ultimate Google Ads Training Course",
+        price: 100,
+        name: "by Jerome Bell"
+    }
 ]
