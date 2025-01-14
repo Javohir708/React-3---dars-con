@@ -14,7 +14,7 @@ const Header = () => {
                   {
                     LINKS.map((item, inx) => {
                       return <li key={inx}>
-                        <a href="#"><span>{item}</span></a>
+                        <a className='hover:text-[#F75E05] duration-150' href="#"><span>{item}</span></a>
                       </li>
                     })
                   }

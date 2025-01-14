@@ -13,7 +13,7 @@ const Hero = () => {
                     <h2 className='text-[64px] font-black mb-[60px]'>Enjoy studying with Createx Online Courses</h2>
                     <div className='flex gap-6'>
                         <button className='w-[148px] h-[52px] border-solid border-2 border-[#F75E05] text-[#FF3F3A] rounded'>About us</button>
-                        <button className='w-[201px] h-[52px] border-solid border-2 bg-[#F75E05] text-[#fff] rounded'>Explore courses</button>
+                        <button className='w-[201px] h-[52px] border-solid border-none bg-[#F75E05] text-[#fff] rounded'>Explore courses</button>
                     </div>
                 </div>
 
@@ -30,7 +30,6 @@ const Hero = () => {
                 <h2 className='text-[46px] font-black text-[#1E212C]'>16 <strong className='inline-block text-base font-normal -translate-y-[10px]'>Qualified tutors</strong></h2>
                 <img src={dot} alt="image" />
                 <h2 className='text-[46px] font-black text-[#1E212C]'>5 <strong className='inline-block text-base font-normal -translate-y-[10px]'>Years of experience</strong></h2>
-
             </div>
         </div>
     </section>
