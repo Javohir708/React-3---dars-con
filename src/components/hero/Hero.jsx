@@ -13,7 +13,7 @@ const Hero = () => {
                     <h2 className='text-[64px] font-black mb-[60px]'>Enjoy studying with Createx Online Courses</h2>
                     <div className='flex gap-6'>
                         <button className='w-[148px] h-[52px] border-solid border-2 border-[#F75E05] text-[#FF3F3A] rounded'>About us</button>
-                        <button className='w-[201px] h-[52px] border-solid border-none bg-[#F75E05] text-[#fff] rounded'>Explore courses</button>
+                        <button className='w-[201px] h-[52px] border-none bg-[#F75E05] text-[#fff] rounded'>Explore courses</button>
                     </div>
                 </div>
 
